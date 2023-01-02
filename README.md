@@ -17,8 +17,8 @@ A Distributed System for querying and searching documents using TF-IDF algorithm
 5. The leader perform aggregation, scoring and sorting, and send the result back to front end server.
 
 ### Tech Stack
-- _Programming Language:_ _`Java`
-- _Development:_ _`Apache ZooKeeper`,  `Protobuf`,  `JavaScript`.
+-   _Programming Language:_ `Java`.
+-   _Development:_ `Apache ZooKeeper`, `Protobuf`, `JavaScript`.
 
 ###  Running Guide
 
