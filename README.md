@@ -22,7 +22,10 @@ A Distributed System for querying and searching documents using TF-IDF algorithm
 
 ###  Running Guide
 
-**Prerequisites:** [Install ZooKeeper](https://zookeeper.apache.org/releases.html)
+**Prerequisites:** 
+[Install ZooKeeper](https://zookeeper.apache.org/releases.html)
+[Install Maven](https://maven.apache.org/install.html)
+
 1. Build both the projects.
 
 ```bash
