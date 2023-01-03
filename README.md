@@ -9,6 +9,10 @@ A Distributed System for querying and searching documents using TF-IDF algorithm
 	<p align="center">Fig 1. <i>An overview of system design</i></p>
 </div>
 
+**Tech Stack**
+-   _Programming Language:_ `Java`.
+-   _Development:_ `Apache ZooKeeper`, `Protobuf`, `JavaScript`.
+
 **Working**
 1. Zookeeper elect a leader among the workers and register them in service registry.
 2. The leader register itself with different Znode to make it available for front end server.
@@ -16,15 +20,11 @@ A Distributed System for querying and searching documents using TF-IDF algorithm
 4. The worker nodes collect the documents from the datastore and perform the search task for computing the result and send it to leader.
 5. The leader perform aggregation, scoring and sorting, and send the result back to front end server.
 
-### Tech Stack
--   _Programming Language:_ `Java`.
--   _Development:_ `Apache ZooKeeper`, `Protobuf`, `JavaScript`.
-
-###  Running Guide
+### Running Guide
 
 **Prerequisites:** 
-[Install ZooKeeper](https://zookeeper.apache.org/releases.html)
-[Install Maven](https://maven.apache.org/install.html)
+- [Install ZooKeeper](https://zookeeper.apache.org/releases.html)
+- [Install Maven](https://maven.apache.org/install.html)
 
 1. Build both the projects.
 
